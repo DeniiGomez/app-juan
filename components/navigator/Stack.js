@@ -23,6 +23,13 @@ export const StackNav = () => (
           headerShown: false
         }}
       />
+      <Stack.Screen
+        name='Information'
+        component={Routes.Information}
+        options={{
+          headerShown: false
+        }}
+      />
     </Stack.Navigator>
   </NavigationContainer>
 )

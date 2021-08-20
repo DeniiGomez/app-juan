@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
   View,
   Text,
@@ -12,6 +11,10 @@ import {
   Image,
 } from 'react-native'
 
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faSearch } from '@fortawesome/free-solid-svg-icons'
+
+import { BackNavigation } from '../navbar/BackNavigation'
 import { colors, sizes } from '../../styles/index'
 
 const imgCareer = require('resources/images/img-career.png')
@@ -25,16 +28,62 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontFamily: 'Lato-Regular',
     fontSize: sizes.title3
+  },
+  wrapper: {
+    backgroundColor: colors.white,
+    borderTopRightRadius: 30,
+    borderTopLeftRadius: 30,
+    flex: 1,
+  },
+  search: {
+    marginTop: 30,
+    marginHorizontal: 20,
+    backgroundColor: colors.gray3,
+    borderRadius: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 20,
+  },
+  inputField: {
+    flex: 1,
+    paddingVertical: 10,
+    color: colors.gray,
+    fontSize: sizes.title3,
+    fontFamily: 'Lato-Bold',
+  },
+  card: {
+    borderRadius: 8,
+    backgroundColor: colors.white,
+    overflow: 'hidden',
+    shadowColor: '#000',
+    shadowOffset: {width:0, height:2},
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 7,
+  },
+  titleCard: {
+    fontSize: sizes.title2,
+    fontFamily: 'Lato-Bold',
+    color: colors.gray,
+    marginBottom: 10,
+  },
+  link: {
+    fontSize: sizes.body,
+    fontFamily: 'Lato-Regular',
+    color: colors.gray,
+    textDecorationLine: 'underline'
   }
 })
 
-export const Career = () => {
+export const Career = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar 
         barStyle='light-content' 
         backgroundColor={colors.red}
       />
+      <BackNavigation title="Carreras" color={colors.white}/>
       <View
         style={{
           paddingHorizontal: 20,
@@ -48,81 +97,48 @@ export const Career = () => {
         </Text>
       </View>
       <View
-        style={{
-          backgroundColor: colors.white,
-          borderTopRightRadius: 30,
-          borderTopLeftRadius: 30,
-          flex: 1,
-        }}
+        style={styles.wrapper}
       >
         <View
-          style={{
-            marginTop: 20,
-            marginHorizontal: 20,
-            backgroundColor: colors.gray3,
-            borderRadius: 8,
-          }}
+          style={styles.search}
         >
           <TextInput
-            style={{
-              paddingHorizontal: 20,
-              paddingVertical: 10,
-              backgroundColor: 'transparent',
-              color: colors.gray,
-              fontSize: sizes.title3,
-              fontFamily: 'Lato-Bold'
-            }}
+            style={styles.inputField}
             placeholderTextColor={colors.gray2}
             placeholder="Buscar..."
+          />
+          <FontAwesomeIcon 
+            icon={faSearch} 
+            color={colors.gray2}
+            size={sizes.title3}
           />
         </View>
         <ScrollView
           contentContainerStyle={{padding: 20, }}
         >
           <View
-            style={{
-              borderRadius: 8,
-              backgroundColor: colors.white,
-              overflow: 'hidden',
-              shadowColor: '#000',
-              shadowOffset: {width:0, height:2},
-              shadowOpacity: 0.1,
-              shadowRadius: 8,
-              elevation: 7,
-            }}
+            style={styles.card}
           >
             <Image
               source={imgCareer}
-              style={{
-                height: 200,
-              }}
+              style={{height: 200,}}
               resizeMode='contain'
             />
             <View
-              style={{
-                padding: 15,
-              }}
+              style={{padding: 15,}}
             >
               <Text
-                style={{
-                  fontSize: sizes.title2,
-                  fontFamily: 'Lato-Bold',
-                  color: colors.gray,
-                  marginBottom: 5,
-                }}
+                style={styles.titleCard}
               >
                 Odontologia
               </Text>
-              <TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => navigation.navigate('Information', {name: "Odontologia"})}
+              >
                 <Text
-                  style={{
-                    fontSize: sizes.body,
-                    fontFamily: 'Lato-Regular',
-                    color: colors.gray,
-                    textDecorationLine: 'underline'
-                  }}
+                  style={styles.link}
                 >
-                  Saber más
+                  Conocer más
                 </Text>
               </TouchableOpacity>
             </View>
