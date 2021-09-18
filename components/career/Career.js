@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
+import SQLite from 'react-native-sqlite-storage'
+import { BaseModel } from 'react-native-sqlite-orm'
+
 import {
   View,
   Text,
@@ -10,6 +14,8 @@ import {
   TextInput,
   Image,
 } from 'react-native'
+
+//import ModelCareer from '../../models/Career'
 
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -76,7 +82,25 @@ const styles = StyleSheet.create({
   }
 })
 
+//const db = openDatabase({ name: 'db', createFromLocation: '~www/db.db'})
+const db = SQLite.openDatabase({name: 'db', readOnly: true, createFromLocation: '/persistences/db.db'})
+
 export const Career = ({ navigation }) => {
+
+  const [items, setItems] = useState([])
+  
+  useEffect(() => {
+
+    db.transaction((tx) => {
+      tx.executeSql('SELECT * FROM prueba;', [], (tx, res) => {
+        console.log('query complete')
+        for(let i = 0; i < res.rows.length; i++) {
+          console.log(res.rows.item(i))
+        }
+      })
+    })
+  },[])
+
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar 
@@ -94,6 +118,7 @@ export const Career = ({ navigation }) => {
           style={styles.title}
         >
           Encuentra una carrera que quieras estudiar.
+          {items.length}
         </Text>
       </View>
       <View
