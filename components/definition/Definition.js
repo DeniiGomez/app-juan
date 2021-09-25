@@ -1,4 +1,7 @@
-import React from 'react'
+import React, {useContext} from 'react'
+
+import { CareerContext } from '../../context/career/CareerContext'
+
 import {
   View, 
   Text,
@@ -7,6 +10,9 @@ import {
 import { colors, sizes } from '../../styles'
 
 export const Definition = () => {
+  
+  const { career } = useContext(CareerContext)
+
   return (
     <View 
       style={{
@@ -21,7 +27,7 @@ export const Definition = () => {
           fontFamily: 'Lato-Regular'
         }}
       >
-        El dentista, también denominado odontólogo , es el especialista que se dedica profesionalmente al cuidado y tratamiento de las enfermedades de los dientes como ser las caries, por nombrar una de las más regulares y extendidas.
+        {career && career.definicion}
       </Text>
     </View>
   )

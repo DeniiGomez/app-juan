@@ -9,26 +9,20 @@ export default class CareerModel extends BaseModel {
   }
  
   static get database() {
-    return async () => SQLite.openDatabase({ name: 'db.db', location: '/persintences/'})
+    //return async () => SQLite.deleteDatabase({ name: 'career.db', createFromLocation: '~persistences/career.db'}, (data) => {console.log(data)}, err => console.log(err))
+    return async () => SQLite.openDatabase({ name: 'career.db', location: '~persistences/career.db', createFromLocation: 1}, (data) => {console.log(data)}, err => console.log(err))
   }
 
   static get tableName() {
-    return 'prueba'
+    return 'carreras'
   }
 
-  static customQuery() {
-    try {
-    const dblayer = new DatabaseLayer(async() => SQLite.openDatabase({ name: 'db.db', location: '~persintences/db.db' }))
-    dblayer.executeSql('SELECT * FROM prueba;').then(response => console.log(response))
-    } catch (err) {
-      console.log(err.message)
-    }
-  }
 
   static get columnMapping() {
     return {
-      id: { type: types.INTEGER, primary_key: true },
-      name: { type: types.TEXT, }
+      id: { type: types.INTEGER },
+      nombre: { type: types.TEXT },
+      definicion: { type: types.TEXT },
     }
   }
 }

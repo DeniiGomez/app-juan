@@ -8,9 +8,14 @@
 
 import React from 'react';
 import { StackNav } from './components/navigator/Stack'
+import { CareerState } from './context/career/CareerState';
 
 const App = () => {
-  return <StackNav/>
+  return (
+    <CareerState>
+      <StackNav/>
+    </CareerState>
+  )
 }
 
 export default App;

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 
-import SQLite from 'react-native-sqlite-storage'
-import { BaseModel } from 'react-native-sqlite-orm'
+import { CareerContext } from '../../context/career/CareerContext'
 
 import {
   View,
@@ -15,7 +14,6 @@ import {
   Image,
 } from 'react-native'
 
-//import ModelCareer from '../../models/Career'
 
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
@@ -43,6 +41,7 @@ const styles = StyleSheet.create({
   },
   search: {
     marginTop: 30,
+    marginBottom: 30,
     marginHorizontal: 20,
     backgroundColor: colors.gray3,
     borderRadius: 8,
@@ -59,6 +58,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Lato-Bold',
   },
   card: {
+    marginBottom: 15,
     borderRadius: 8,
     backgroundColor: colors.white,
     overflow: 'hidden',
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Lato-Bold',
     color: colors.gray,
     marginBottom: 10,
+    textTransform: 'capitalize'
   },
   link: {
     fontSize: sizes.body,
@@ -82,23 +83,13 @@ const styles = StyleSheet.create({
   }
 })
 
-//const db = openDatabase({ name: 'db', createFromLocation: '~www/db.db'})
-const db = SQLite.openDatabase({name: 'db', readOnly: true, createFromLocation: '/persistences/db.db'})
-
 export const Career = ({ navigation }) => {
 
+  const { careers, getCareers } = useContext(CareerContext)
   const [items, setItems] = useState([])
-  
-  useEffect(() => {
 
-    db.transaction((tx) => {
-      tx.executeSql('SELECT * FROM prueba;', [], (tx, res) => {
-        console.log('query complete')
-        for(let i = 0; i < res.rows.length; i++) {
-          console.log(res.rows.item(i))
-        }
-      })
-    })
+  useEffect(() => {
+    getCareers()
   },[])
 
   return (
@@ -118,7 +109,6 @@ export const Career = ({ navigation }) => {
           style={styles.title}
         >
           Encuentra una carrera que quieras estudiar.
-          {items.length}
         </Text>
       </View>
       <View
@@ -139,35 +129,38 @@ export const Career = ({ navigation }) => {
           />
         </View>
         <ScrollView
-          contentContainerStyle={{padding: 20, }}
+          contentContainerStyle={{paddingHorizontal: 20, }}
         >
-          <View
-            style={styles.card}
-          >
-            <Image
-              source={imgCareer}
-              style={{height: 200,}}
-              resizeMode='contain'
-            />
+          {careers.map((item, index) => (
             <View
-              style={{padding: 15,}}
+              key={index}
+              style={styles.card}
             >
-              <Text
-                style={styles.titleCard}
-              >
-                Odontologia
-              </Text>
-              <TouchableOpacity
-                onPress={() => navigation.navigate('Information', {name: "Odontologia"})}
+              <Image
+                source={imgCareer}
+                style={{height: 200,}}
+                resizeMode='contain'
+              />
+              <View
+                style={{padding: 15,}}
               >
                 <Text
-                  style={styles.link}
+                  style={styles.titleCard}
                 >
-                  Conocer más
+                  {item.nombre}
                 </Text>
-              </TouchableOpacity>
+                <TouchableOpacity
+                  onPress={() => navigation.navigate('Information', {name: item.nombre, id: item.id})}
+                >
+                  <Text
+                    style={styles.link}
+                  >
+                    Conocer más
+                  </Text>
+                </TouchableOpacity>
+              </View>
             </View>
-          </View>
+          ))}
         </ScrollView>
       </View>
     </SafeAreaView>

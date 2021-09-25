@@ -1,0 +1,6 @@
+export const GET_CAREERS = "GET_CAREERS"
+export const GET_DEFINITION = "GET_DEFINITION"
+export const GET_COURSES = "GET_COURSES"
+export const GET_ACTIVITIES = "GET_ACTIVITIES"
+export const GET_JOBS = "GET_JOBS"
+export const SET_CAREER = "SET_CAREER"

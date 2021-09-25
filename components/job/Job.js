@@ -4,9 +4,9 @@ import { CareerContext } from '../../context/career/CareerContext'
 
 import { List } from '../list/List'
 
-export const Courses = () => {
+export const Job = () => {
 
-  const{ courses } = useContext(CareerContext)
+  const{ jobs } = useContext(CareerContext)
 
-  return <List list={courses} />
+  return <List list={jobs} />
 }

@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
+
+import { CareerContext } from '../../context/career/CareerContext'
+
 import {
   View,
   Text,
@@ -15,6 +18,8 @@ const imgInfo = require('resources/images/img-info.png')
 
 import { Definition } from '../definition/Definition'
 import { Courses } from '../courses/Courses'
+import { Activity } from '../activity/Activity'
+import { Job } from '../job/Job'
 
 const Tab = createMaterialTopTabNavigator()
 
@@ -40,7 +45,17 @@ const styles = StyleSheet.create({
 
 export const Information = ({ route }) => {
   
-  const { name } = route.params
+  const { setCareer, getCourses, getActivities, getJobs } = useContext(CareerContext)
+
+  const { name, id } = route.params
+
+  useEffect(() => {
+    console.log(id)
+    setCareer(id)
+    getCourses(id)
+    getActivities(id)
+    getJobs(id)
+  },[])
 
   return (
     <SafeAreaView style={styles.container}>
@@ -88,14 +103,14 @@ export const Information = ({ route }) => {
           />
           <Tab.Screen 
             name='Courses2' 
-            component={Courses}
+            component={Activity}
             options={{
               tabBarLabel: 'Actividades'
             }}
           />
           <Tab.Screen 
             name='Courses3' 
-            component={Courses}
+            component={Job}
             options={{
               tabBarLabel: 'Ambito laboral'
             }}

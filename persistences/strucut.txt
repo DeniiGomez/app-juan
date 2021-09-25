@@ -1,0 +1,60 @@
+DROP TABLE IF EXISTS carreras;
+DROP TABLE IF EXISTS cursos;
+DROP TABLE IF EXISTS actividades;
+DROP TABLE IF EXISTS trabajos;
+DROP TABLE IF EXISTS imagenes;
+
+CREATE TABLE carreras (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	nombre TEXT,
+	definicion TEXT,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP
+);
+
+CREATE TABLE cursos (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	idCarrera INTEGER,
+	nombre TEXT,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP,
+	CONSTRAINT fk_idCarrera FOREIGN KEY (idCarrera) REFERENCES carreras(id)
+);
+
+CREATE TABLE actividades (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	idCarrera INTEGER,
+	nombre TEXT,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP,
+	CONSTRAINT fk_idCarrera FOREIGN KEY (idCarrera) REFERENCES carreras(id)
+);
+
+CREATE TABLE trabajos (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	idCarrera INTEGER,
+	nombre TEXT,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP,
+	CONSTRAINT fk_idCarrera FOREIGN KEY (idCarrera) REFERENCES carreras(id)
+);
+
+CREATE TABLE imagenes (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	idCarrera INTEGER,
+	ruta TEXT,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_at TIMESTAMP,
+	CONSTRAINT fk_idCarrera FOREIGN KEY (idCarrera) REFERENCES carreras(id)
+);
+
+insert into carreras (nombre, definicion) VALUES ('Perito en Administración de empresas.
+', 'La carrera de Administración de empresas prepara profesionales capacitados para administrar eficazmente y dirigir los recursos humanos de una empresa, entidad o de una organización a nivel global.');
+
+insert into cursos (nombre, idCarrera) VALUES ('Comunicación y lenguaje', 1);
+
+insert into trabajos (idCarrera, nombre) VALUES(1, 'Emprendimiento propio');
+
+SELECT * from trabajos;
+
+PRAGMA TABLE_INFO('carreras');
