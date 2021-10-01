@@ -1,0 +1,114 @@
+[
+    {
+        "created_at": "2021-09-30 05:29:31",
+        "id": 150,
+        "idCarrera": 1,
+        "nombre": "-Emprendimiento propio\r\n\r\n-Funcionario publico\r\n\r\n-Instituciones Públicas y privadas\r\n\r\n-Instituciones culturales\r\n\r\n-Política \r\n\r\n-ONG´S",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:50",
+        "id": 151,
+        "idCarrera": 2,
+        "nombre": "-Reserva natural\r\n\r\n-Zoológico\r\n\r\n-Empresas agrícola o pecuaria\r\n\r\n-Otros",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:50",
+        "id": 152,
+        "idCarrera": 3,
+        "nombre": "-Clínica dentales\r\n\r\n-Laboratorios dentales\r\n\r\n-Depósitos de suministros dentales\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:51",
+        "id": 153,
+        "idCarrera": 4,
+        "nombre": "-Taller de servicio\r\n\r\n-Sector automotriz\r\n\r\n-Importadoras y comercializadoras \r\n\r\n-Talleres de servicio técnico y mantenimiento \r\n\r\n-Emprendimiento de su profesión. \r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:51",
+        "id": 154,
+        "idCarrera": 5,
+        "nombre": "-Continuar la universidad en las carreras: \r\n\r\nAbogado y notario\r\n\r\nLicenciado en ciencias Jurídicas\r\n\r\nCriminología\r\n\r\nCriminalística y administración publica\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:51",
+        "id": 155,
+        "idCarrera": 6,
+        "nombre": "-Área de informática para empresas privadas o publicas\r\n\r\n-Empresas de venta de tecnología \r\n\r\n-Empresas de soporte técnico informático\r\n\r\n-Empresas relacionadas a Ingeniería de sistemas\r\n\r\n-Emprendimiento de su profesión",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:52",
+        "id": 156,
+        "idCarrera": 7,
+        "nombre": "-Asistente de arquitectos e ingenieros\r\n\r\n-Constructoras\r\n\r\n-Servicios técnicos \r\n\r\n-Área de arquitectura y obras civiles en organizaciones públicas o privadas.\r\n\r\n-Emprendimiento de su profesión.\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:52",
+        "id": 157,
+        "idCarrera": 8,
+        "nombre": "-Instituciones públicas y privadas\r\n\r\n-Empresas de publicidad\r\n\r\n-Instituciones educativas\r\n\r\n-ONG´S\r\n\r\n-Cualquier institución que cuente con departamento de diseño gráfico\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:52",
+        "id": 158,
+        "idCarrera": 9,
+        "nombre": "-Técnico electricista en sector privado y publico\r\n\r\n-Técnico  en el sector industrial\r\n\r\n-Constructoras\r\n\r\n-Industria eléctrica ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:52",
+        "id": 159,
+        "idCarrera": 10,
+        "nombre": "-Talleres de electrónica\r\n\r\n-Soporte técnico en procesos industriales\r\n\r\n-Empresas privadas y públicas\r\n\r\n-Ventas de suministros electrónicos\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:52",
+        "id": 160,
+        "idCarrera": 11,
+        "nombre": "-Chef de restaurantes\r\n\r\n-Hoteles\r\n\r\n-Eventos\r\n\r\n-Cruceros\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:53",
+        "id": 161,
+        "idCarrera": 12,
+        "nombre": "-Talleres automotriz\r\n\r\n-Venta de repuesto automotrices \r\n\r\n-Talleres de reparación de vehículos en general\r\n\r\n-Plantas de revisión técnica\r\n\r\n-Servicio automotriz propio \r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:53",
+        "id": 162,
+        "idCarrera": 13,
+        "nombre": "      El objetivo de esta carrera es preparar al estudiante para aprobar el examen de admisión de la facultad de medicina.",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:53",
+        "id": 163,
+        "idCarrera": 14,
+        "nombre": "-Estudio Contable\r\n\r\n-Asesores de empresas y personas\r\n\r\n-Sector público y privado.\r\n\r\n-Entidades bancarias\r\n\r\n-Áreas de auditoria\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:54",
+        "id": 164,
+        "idCarrera": 15,
+        "nombre": "-Oficinas jurídicas\r\n\r\n-Entidades públicas y privadas.\r\n\r\n-Centros educativos\r\n\r\n-Centro medico.\r\n\r\n-Otros.\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:29:54",
+        "id": 165,
+        "idCarrera": 16,
+        "nombre": "-Industrias del turismo y hotelería\r\n\r\n-Guía turístico\r\n\r\n-Administrador de Hoteles\r\n\r\n-Manager de entidades Turísticas.\r\n",
+        "updated_at": null
+    }
+]

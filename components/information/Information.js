@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
 
 export const Information = ({ route }) => {
   
-  const { setCareer, getCourses, getActivities, getJobs } = useContext(CareerContext)
+  const { career, setCareer, getCourses, getActivities, getJobs } = useContext(CareerContext)
 
   const { name, id } = route.params
 
@@ -66,9 +66,9 @@ export const Information = ({ route }) => {
       <BackNavigation title={name} color={colors.gray}/>
       <View style={styles.wrapper}>
         <Image
-          source={imgInfo}
+          source={{uri: career.ruta && career.ruta}}
           style={styles.img}
-          resizeMode='contain'
+          resizeMode='cover'
         />
         <Tab.Navigator
           screenOptions={{

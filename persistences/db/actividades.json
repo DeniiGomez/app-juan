@@ -1,0 +1,114 @@
+[
+    {
+        "created_at": "2021-09-30 05:11:58",
+        "id": 41,
+        "idCarrera": 1,
+        "nombre": "-Consultoría empresarial\r\n\r\n-Marketing\r\n\r\n-Gestión y procesos de finanzas",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:11:58",
+        "id": 42,
+        "idCarrera": 2,
+        "nombre": "-Estudio agrícola, pecuaria y forestal",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:11:59",
+        "id": 43,
+        "idCarrera": 3,
+        "nombre": "-Esterilizar instrumentos dentales\r\n\n-Procesar rayo x\r\n\n-Utilizar manguera de succión\r\n\n-Hacer moldes de dientes \n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:11:59",
+        "id": 44,
+        "idCarrera": 4,
+        "nombre": "-Diagnosticar fallas en vehiculos\r\n \r\n-Manejo de equipos de medición\r\n\r\n-Otros",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:11:59",
+        "id": 45,
+        "idCarrera": 5,
+        "nombre": "-Investigación de fenómenos sociales",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:00",
+        "id": 46,
+        "idCarrera": 6,
+        "nombre": "-Configuración de redes informáticas \r\n\r\n-Configuración de hardware y software\r\n\r\n-Programación\r\n\r\n-Base de datos\r\n\r\n-Instalación de redes.\r\n\r\n-Diagnóstico y reparación de computadoras. \r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:00",
+        "id": 47,
+        "idCarrera": 7,
+        "nombre": "-Levantamiento topográfico\r\n\r\n-Dibujo de planos de arquitectura y obras civiles\r\n\r\n-Construcción de maquetas virtuales\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:00",
+        "id": 48,
+        "idCarrera": 8,
+        "nombre": "-Diseñador de páginas web\r\n\r\n-Ilustrador\r\n\r\n-Campañas de marketing\r\n\r\n-Diseño de stands\r\n\r\n-Catálogos y folletos\r\n\r\n-Logotipos\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:00",
+        "id": 49,
+        "idCarrera": 9,
+        "nombre": "-Instalación de máquinas rotativas\r\n\r\n-Instalación de máquinas estacionarias y control de procesos.\r\n \r\n-Diseñar e instalar circuitos eléctricos\r\n\r\n-Instalación de máquinas industriales.\r\n-Mantenimiento de área eléctrica.\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:00",
+        "id": 50,
+        "idCarrera": 10,
+        "nombre": "-Diseño de circuitos electrónicos\r\n\r\n-Configurar y programar placas industriales.\r\n\r\n-Mantenimiento y reparación de equipos electrónicos\r\n\r\n-Mantenimiento y reparación de máquinas industriales",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:01",
+        "id": 51,
+        "idCarrera": 11,
+        "nombre": "-Preparación de platillos\r\n\r\n-Preparación de Bebidas",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:02",
+        "id": 52,
+        "idCarrera": 12,
+        "nombre": "-Diagnóstico y reparación de vehículos livianos y semi-pesados\r\n\r\n-Mantenimiento preventivo\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:02",
+        "id": 53,
+        "idCarrera": 13,
+        "nombre": "-Investigaciones\r\n\r\n-Simulaciones\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:02",
+        "id": 54,
+        "idCarrera": 14,
+        "nombre": "-Investigar y analizar libros tributarios\r\n\r\n-Verificar la autenticidad de los datos\r\n\r\n-Actualización continua de los aspectos tributarios\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:03",
+        "id": 55,
+        "idCarrera": 15,
+        "nombre": "-Atención al cliente\r\n\r\n-Gestionar agenda\r\n\r\n-Apoyo administrativo\r\n",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-30 05:12:03",
+        "id": 56,
+        "idCarrera": 16,
+        "nombre": "-Planear recorridos\r\n\r\n-Investigar lugares atractivos\r\n",
+        "updated_at": null
+    }
+]

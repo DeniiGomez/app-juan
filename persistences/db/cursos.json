@@ -1,0 +1,114 @@
+[
+    {
+        "created_at": "2021-09-25 15:26:21",
+        "id": 1,
+        "idCarrera": 1,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 2,
+        "idCarrera": 2,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más.",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 3,
+        "idCarrera": 3,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 4,
+        "idCarrera": 4,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 5,
+        "idCarrera": 5,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 6,
+        "idCarrera": 6,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Practica\r\n-Laboratorio\r\n-Seminario\r\n-Reparación y soporte\r\n-Computación aplicada \r\n-Sistemas e instalación de software\r\n-Ética profesional y relaciones humanas\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 7,
+        "idCarrera": 7,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 8,
+        "idCarrera": 8,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Fundamentos de diseño\r\n-Expresión artística\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Diseño grafico\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 9,
+        "idCarrera": 9,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Electricidad\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Dibujo técnico\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 10,
+        "idCarrera": 10,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Electrónica\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 11,
+        "idCarrera": 11,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 12,
+        "idCarrera": 12,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Procesos básicos de soldadura\r\n-Metalmecánica\r\n-Mantenimiento básico del automóvil\r\n-Motores gasolina\r\n-Tecnología básica de metalmecánica \r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 13,
+        "idCarrera": 13,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 14,
+        "idCarrera": 14,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 15,
+        "idCarrera": 15,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía-Investigación\r\n-Contabilidad\r\n-Física\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:27:20",
+        "id": 16,
+        "idCarrera": 16,
+        "nombre": "-Comunicación y lenguaje\r\n-Matemáticas\r\n-Ciencias sociales y formación ciudadana\r\n-Ciencias naturales\r\n-Filosofía\r\n-Investigación\r\n-Contabilidad\r\n-Física\r\n-Administración hotelera\r\n-Técnicas de funcionamiento hotelero\r\n-Practica\r\n-Química\r\n-Seminario\r\n-Otros más. ",
+        "updated_at": null
+    }
+]

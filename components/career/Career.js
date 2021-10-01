@@ -12,6 +12,7 @@ import {
   StyleSheet,
   TextInput,
   Image,
+  Alert
 } from 'react-native'
 
 
@@ -20,8 +21,6 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 import { BackNavigation } from '../navbar/BackNavigation'
 import { colors, sizes } from '../../styles/index'
-
-const imgCareer = require('resources/images/img-career.png')
 
 const styles = StyleSheet.create({
   container: {
@@ -83,13 +82,29 @@ const styles = StyleSheet.create({
   }
 })
 
+
 export const Career = ({ navigation }) => {
 
   const { careers, getCareers } = useContext(CareerContext)
-  const [items, setItems] = useState([])
+  const [data, setData] = useState([])
+
+  const handleSearch = (text) => {
+    const filter = careers.filter(el => {
+      if(el.nombre.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,"").includes(text.toLowerCase())) {
+        return el
+      }
+    })
+
+    setData(filter)
+  }
+
+
 
   useEffect(() => {
+    console.log(careers)
     getCareers()
+      .then((data) => setData(data))
+      .catch(err => console.log({messageError: err}))
   },[])
 
   return (
@@ -121,6 +136,7 @@ export const Career = ({ navigation }) => {
             style={styles.inputField}
             placeholderTextColor={colors.gray2}
             placeholder="Buscar..."
+            onChangeText={handleSearch}
           />
           <FontAwesomeIcon 
             icon={faSearch} 
@@ -131,15 +147,16 @@ export const Career = ({ navigation }) => {
         <ScrollView
           contentContainerStyle={{paddingHorizontal: 20, }}
         >
-          {careers.map((item, index) => (
+          {data.map((item, index) => (
             <View
               key={index}
               style={styles.card}
             >
               <Image
-                source={imgCareer}
-                style={{height: 200,}}
-                resizeMode='contain'
+              
+                source={{uri: `${item.ruta}`}}
+                style={{height: 200, width: 'auto'}}
+                resizeMode='cover'
               />
               <View
                 style={{padding: 15,}}

@@ -1,0 +1,114 @@
+[
+    {
+        "created_at": "2021-09-25 14:59:57",
+        "definicion": "Perito en Administración de Empresas: \r\n     La carrera de Administración de empresas prepara profesionales capacitados para administrar eficazmente y dirigir los recursos humanos de una empresa, entidad o de una organización a nivel global.\r\n     Administración de Empresas es una carrera completa, aprenderás acerca de los diferentes aspectos y las áreas que conforman una empresa, obtendrás conocimientos económicos, humanísticos, contables y administrativos.\r\n\r\n     El administrador también tiene que saber cómo proteger una organización contra posibles amenazas y sobre los aspectos legales, conocimientos sobre contratos empresariales, obligaciones legales que tiene como administrador\r\n",
+        "id": 1,
+        "nombre": "ADMINISTRADOR DE EMPRESA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:06",
+        "definicion": "Bachillerato en Ciencias y Letras Diplomado en Agronomía: \r\n     Es una carrera que básicamente se desarrolla en tres áreas Pecuaria, Forestal y Agrícola. Con esta carrera el estudiante podrá continuar se educación en el nivel universitario como ingeniero agrónomo.",
+        "id": 2,
+        "nombre": "AGRONOMÍA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachillerato en Ciencias y Letras Diplomado en Asistencia Dental: \r\n     Carrera orientada para asistir a un Odontólogo, además de poder continuar una carrera a nivel Universitario.\r\n\t ",
+        "id": 3,
+        "nombre": "ASISTENTE DENTAL",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Perito en Electrónica y Dispositivos Digitales Diplomado en Autotrónica:   \r\n\r\n     La Autotrónica es una carrera en la que se aplican conocimientos y recursos electrónicos al sector automovilístico. Representa un campo muy rico en conocimiento, porque representa a todo aquello que hoy en día es manejado por sensores y procesadores electrónicos en un automóvil.\r\n\t \r\n\t Muchas de las funciones de un carro hoy en día pasaron de ser mecánicas (controladas por válvulas de presión y ejes que marcaban indicadores en forma de reloj) a ser electrónicas, controladas por una computadora que arroja en pantalla informes detallados de la condición actual del vehículo.  \r\n\t \r\n\t Hoy en día la Autotrónica ha mejorado sustancialmente la vida de los automóviles, convirtiéndolos en equipos fáciles de diagnosticar en caso de falla o mantenimiento.  ",
+        "id": 4,
+        "nombre": "AUTOTRÓNICA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachiller en Ciencias y Letras Diplomado en Ciencias Jurídicas: \r\n     Proporciona la certificación académica y acredita la formación inicial básica en el área disciplinaria del Derecho. En la cual se adquiere conocimientos de derechos individuales y colectivos de la sociedad guatemalteca y sociedades internacionales.",
+        "id": 5,
+        "nombre": "CIENCIAS JURÍDICAS",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachillerato en Computación:  \r\n     \r\n\t Carrera de diversificado que permite la continuidad de los estudios en el nivel universitario, los graduados obtendrán conocimientos de uso de la tecnología y resolución de problemas relacionados a la computación. Otras habilidades relacionadas a la computación como resolución de problemas informáticos del área laboral como también en la vida cotidiana.",
+        "id": 6,
+        "nombre": "COMPUTACIÓN",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachiller Industrial y Perito en Dibujo de Construcción:  \r\n     Los dibujantes en construcción son quienes se ocupan de elaborar planos e ilustraciones de aquellos proyectos que son ideados por arquitectos, ingenieros y/o diseñadores. Estos planos e ilustraciones incluyen detalles técnicos de los productos y estructuras que representan, como por ejemplo cuáles son sus dimensiones y con qué material se realizarán, con el fin de facilitar el proceso de construcción, y por supuesto, ofrecer una vista previa de cómo lucirán.\r\n\t Asimismo, cabe destacar que dichos materiales pueden ser bidimensionales o tridimensionales, elaborados de forma manual o a través de computadoras por medio de programas CAD o 3D. Además se cuenta con una especialización en topografía.",
+        "id": 7,
+        "nombre": "DIBUJO EN CONSTRUCCIÓN",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachillerato en Ciencias y Letras con Orientación en Diseño Gráfico: \r\n     Diseño Gráfico es la base para una educación permanente, es decir, proporciona a los y las estudiantes la posibilidad de continuar con sus estudios en el nivel superior en alguna de las especialidades que la Universidad ofrece hoy día, siempre y cuando se haya desarrollado en ellos y ellas las herramientas básicas de autoaprendizaje.\r\n\t \r\n\t  El graduado de esta carrera podrá diseñar proyectos y materiales visuales que transmitan mensajes importantes y reflejen conocimientos específicos con respecto al uso del colorido y al impacto social que puedan tener.\r\n",
+        "id": 8,
+        "nombre": "DISEÑO GRAFICO",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachillerato en Ciencias y Letras con Orientación en Electricidad:  \r\n\r\n     Esta carrera se lleva a cabo en el marco de una educación permanente que permite la continuidad de los estudios en el nivel superior. Los(as) graduandos(as) de esta carrera poseen los conocimientos en el uso de la tecnología, y resolución de problemas relacionados con las ciencias, las letras y la vida cotidiana.\r\n\t \r\n\t La carrera está diseñada para brindarle al estudiante las herramientas y conocimiento necesario para desenvolverse en las ramas que incluyen sistemas eléctricos, electrónicos y de control automático, instalación y mantenimiento de máquinas eléctricas.\r\n",
+        "id": 9,
+        "nombre": "ELECTRICIDAD",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Perito en Electrónica y Dispositivos Digitales: \r\n\r\n     La Electrónica estudia y emplea sistemas que utiliza gran diversidad de conocimientos, materiales y dispositivos para construir y diseñar circuitos electrónicos.\r\n\t \r\n\t La carrera de Electrónica Industrial forma profesionales capaces de diseñar, implementar, configurar y operar sistemas electrónicos de automatización. Destaca en todos los campos de la producción manejando equipos industriales de alto rendimiento utilizados por las empresas. Integra conocimientos y tecnologías de electrónica, informática, control automático e instrumentos de medición.\r\n\t\r\n\tAl culminar, podrás convalidar tus estudios con carreras como Ingeniería Electrónica.\r\n",
+        "id": 10,
+        "nombre": "ELECTRÓNICA INDUSTRIAL",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachiller en Ciencias y Letras Diplomado en Gastronomía:  \r\n     \r\n\t La Gastronomía es el estudio de los diferentes componentes culturales que toma como base la comida. \r\n\t Estudiar Gastronomía se trata del descubrimiento, la investigación y la comprensión de la elaboración de la comida y todo lo que implica la alimentación. Incluso se aprende la relación entre la cultura y la nutrición. \r\n\r\n\t El principio de la Gastronomía es que la comida es una ciencia, además de una forma de arte. Al entender cómo todos los sentidos contribuyen a una experiencia, un Chef puede entender más completamente lo que está sucediendo cuando un consumidor reclama que no le gusta o no disfruta de un alimento en particular.\r\n\t La Gastronomía es un camino de esfuerzo constante, sin embargo, si te apasiona todo lo referente a la preparación de bebidas y alimentos, será un esfuerzo que disfrutarás al máximo. \r\n",
+        "id": 11,
+        "nombre": "GASTRONOMÍA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachiller Industrial y Perito en Mecánica Automotriz: \r\n     Los estudiantes de  Mecánica Automotriz están formados para reconocer, analizar, evaluar, diagnosticar, organizar, supervisar y tomar las acciones correctivas necesarias para mantener en correcta operación los vehículos livianos y semi-pesados, de uso particular o de empresas públicas o privadas.\r\n     \r\n\t Tienen competencias para resolver problemas relacionados con el mantenimiento y reparación  y así incrementar la disponibilidad y maximizar la vida útil de los automóviles, a fin de reducir sustancialmente los costos operativos.\r\n\r\n\t Las capacidades, competencias tecnológicas y personales obtenidas aseguran un desempeño eficaz en la actividad laboral; razón por la cual, diversas empresas líderes del país y del extranjero valoran a los egresados de esta carrera.\r\n",
+        "id": 12,
+        "nombre": "MECÁNICA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachiller en Ciencias y Letras con Orientación en Ciencias Biológicas:     \r\n     \r\n\t Te prepara para seguir con estudios universitarios de médico o de enfermería profesional al tiempo que te brinda conocimientos y fundamentos específicos de la medicina general, habilidades y valores en el campo científico, humanístico y tecnológico.\r\n\t\r\n\tLa filosofia se basa  en la práctica y el ejercicio real. De ahí partimos para crear una clínica con todo el equipo necesario para que los estudiantes de ésta carrera cuenten con los recursos que ésta orientación requiere.\r\n\r\n\tAdemás  practica \tcon un laboratorio científico equipado con microscopios, modelos anatómicos tamaño real, simuladores de parto, simuladores de RCP, entre otros equipos.\r\n",
+        "id": 13,
+        "nombre": "MEDICINA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Perito Contador: \r\n\r\n     Los contadores con, ante todo, personas con gran conocimiento de la economía global y regional.\r\n\t La formación del contador público tiene dos bases: una humanística y otra técnica. Por un lado, su fundamento es la matemática como base de las ciencias económicas.\r\n\r\n\t La carrera de contador público resulta una elección más que acertada para aquellos que gustan tanto de la practicidad que aporta la contabilidad como herramienta de control, y que tienen un profundo interés en la realidad económica, a lo largo de la historia y en la actualidad.\r\n",
+        "id": 14,
+        "nombre": "PERITO CONTADOR",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Secretariado Oficinista: \r\n\r\n     La carrera tiene como objetivo el formar mujeres eficientes, proactivas, emprendedoras y capaces de tomar decisiones y contar con cargos de gran responsabilidad. \r\n\t Debe de crear un ambiente de trabajo armonioso que ayuden al equipo de trabajo a dominar técnicas que ayuden a brindar una mejor atención al público y así adquirir conocimientos administrativos, contables y de computo.\r\n \r\n     Para poder estar en esta carrera debes de ser una persona dinámica, responsable, con vocación de servicio. Debes de mantener una mente positiva para el manejo de problemas administrativos y para el manejo del mismo.\r\n",
+        "id": 15,
+        "nombre": "SECRETARIADO OFICINISTA",
+        "updated_at": null
+    },
+    {
+        "created_at": "2021-09-25 15:03:59",
+        "definicion": "Bachillerato en Ciencias y Letras con Orientación en Turismo:   \r\n\r\n     Esta carrera se lleva a cabo en el marco de una educación permanente que permite la continuidad de los estudios en el nivel superior.   \r\n\t \r\n\t Los(as) graduandos(as) de esta carrera poseen los conocimientos en el uso de la tecnología, y resolución de problemas relacionados con las ciencias, las letras y la vida cotidiana. \r\n\t Por ello se insiste en el desarrollo de habilidades y destrezas que pueden ser utilizadas y adaptadas en distintos contextos de la vida como ciudadano, en lo laboral, lo familiar, lo académico, vinculándolas con los procesos de resolución de problemas y las capacidades emprendedoras de los y las estudiantes.\r\n\t \r\n\t Para poder estar en esta carrera debes de ser una persona dinámica, con vocación de servicio y muy responsable, debes de sentirte atraído(a) hacia la actividad turística...\r\n",
+        "id": 16,
+        "nombre": "TURISMO",
+        "updated_at": null
+    }
+]

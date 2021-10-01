@@ -1,0 +1,22 @@
+[
+    {
+        "name": "carreras",
+        "seq": 16
+    },
+    {
+        "name": "cursos",
+        "seq": 36
+    },
+    {
+        "name": "actividades",
+        "seq": 56
+    },
+    {
+        "name": "trabajos",
+        "seq": 165
+    },
+    {
+        "name": "imagenes",
+        "seq": 16
+    }
+]

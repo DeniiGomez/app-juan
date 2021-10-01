@@ -1,7 +1,8 @@
 import SQLite from 'react-native-sqlite-storage'
 import { BaseModel, types } from 'react-native-sqlite-orm'
 
-
+// SQLite.DEBUG(true);
+// SQLite.enablePromise(true);
 export default class JobModel extends BaseModel {
   constructor(obj) {
     super(obj)

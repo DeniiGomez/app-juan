@@ -12,7 +12,7 @@ import { colors, sizes } from '../../styles'
 export const Definition = () => {
   
   const { career } = useContext(CareerContext)
-
+  //console.log(career)
   return (
     <View 
       style={{
